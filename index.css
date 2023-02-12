@@ -344,3 +344,22 @@ input{
     top: 0;
     right: -50%;
 }
+@media only screen and (max-width: 768px) {
+    .heart{
+        outline: none;
+        text-decoration: none;
+        position: sticky;
+        z-index: 0;
+        width: 90px;
+        height: 90px;
+        background: #F90B57;
+        box-shadow: 0 0 20px #ff155f,
+                    0 0 60px #ff155f;
+        transform: rotate(-45deg);
+        animation: heart 1.2s linear infinite 0.2s alternate;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+}
