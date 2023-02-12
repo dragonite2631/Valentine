@@ -139,11 +139,6 @@ mainAudio.addEventListener("timeupdate", (e)=>{
         nextMusic()
     }
 })
-progressArea.addEventListener("click", (e)=>{
-    let progressWidth = progressArea.clientWidth
-    let clickedOffSetX = e.offsetX
-    let songDuration = mainAudio.duration
-})
 // A list of all possible colors
 const COLORS = ["pink","red","purple","orange"];
 
